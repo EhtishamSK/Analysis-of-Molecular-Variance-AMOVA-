@@ -85,3 +85,7 @@ write.csv(amova_df, file = "amova_results.csv", row.names = TRUE)
 # save co variance component 
 amova_covar_components <- as.data.frame(amova_res$componentsofcovariance)
 write.csv(amova_covar_components, file = "amova_covar_components.csv", row.names = TRUE)
+
+amova_statphi <- as.data.frame(amova_res$statphi)
+write.csv(amova_statphi, file = "amova_statphi.csv", row.names = TRUE)
+
