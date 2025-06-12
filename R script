@@ -1,4 +1,5 @@
 # Set working directory to the project folder
+## Make sure to change this as per your filesystem
 setwd("C:/Users/ehtis/OneDrive - New Mexico State University/SUNNY/Research Projects/Fruit Morphology Projects/GWAS/amova")
 
 # Install and load required packages for genetic analysis
