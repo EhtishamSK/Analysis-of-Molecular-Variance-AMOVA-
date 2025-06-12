@@ -8,3 +8,6 @@ This R script performs an Analysis of Molecular Variance (AMOVA) on SNP data. It
 
 ## Requirements
 - R with `adegenet`, `poppr`, and `ape` packages.
+
+## Note
+The analysis was done using the structure format.
